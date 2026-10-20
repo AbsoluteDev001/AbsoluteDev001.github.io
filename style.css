@@ -15,7 +15,9 @@
     --line: #333;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -28,8 +30,11 @@ body {
 
 a {
   color: var(--link);
+  transition: color 0.2s;
 }
-
+a:hover {
+  color: var(--text);
+}
 header {
   padding: 2rem 0 1rem;
   border-bottom: 1px solid var(--line);
