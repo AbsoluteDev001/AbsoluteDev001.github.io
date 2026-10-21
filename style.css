@@ -68,8 +68,8 @@ footer {
 
 /* Profile picture: a small circle */
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;     /* 50% turns a square into a circle */
   object-fit: cover;      /* crops the photo instead of stretching it */
   display: block;
